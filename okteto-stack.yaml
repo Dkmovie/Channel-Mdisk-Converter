@@ -5,11 +5,15 @@ services:
       API_ID: $API_ID  
       API_HASH: $API_HASH  
       BOT_TOKEN: $BOT_TOKEN 
-      SESSION: $SESSION
-      AUTH: $AUTH
-      FORCESUB: $FORCESUB
+      DROPLINK_API: $DROPLINK_API
+      MDISK_API: $MDISK_API
+      ADMINS: $ADMINS
+      DATABASE_NAME: $DATABASE_NAME
+      DATABASE_URL: $DATABASE_URL
+      WEBSITE: $WEBSITE
+      CHANNEL_ID: $CHANNEL_ID
     ports:
-      - 8080
+      - 8000
     resources:
       cpu: 1000m
       memory: 3Gi
